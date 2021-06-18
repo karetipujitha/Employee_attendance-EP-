@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        header {
+    
+    text-align: center;
+}
+html {
+    height: 100%;
+}
+body{
+    background-color: rgb(235, 226, 226);
+    background-size: cover;
+   
+}
+
+
+
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+
+button{
+    color: black;
+    background-color: cyan;
+    
+}
+input[type=submit]
+{
+    
+    background-color: cyan;
+}
+
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(204, 0, 255);  
+}span{  
+    color: white;  
+    font-size: 17px;  
+}  
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#6abadeba;  
+    font-family: 'Arial';  
+}  
+p1{
+    color:yellow;
+}
+.login{  
+        width: 380px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 1 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+          
+}  
+
+
+    </style>
+     <title>Login</title>
+    <body>
+       
+        <div class="container">
+            <title>Login page</title>
+            <header>
+                
+                <h1>Login</h1>
+                
+            </header>
+    
+            <div class="login">    
+                <form id="login" method="get" action="home.html" onsubmit="myFunction">    
+                    <label><b>User Name     
+                    </b>    
+                    </label>    
+                    <input type="text" name="Username" id="Username" placeholder="Username" required>    
+                    <br><br>    
+                    <label><b>Password     
+                    </b>    
+                    </label>    
+                    <input type="Password" name="Password" id="Password" placeholder="Password" required>    
+                    <br><br>   
+                      
+                        
+                   
+                    <button>  
+                        <input type="submit" value="Submit"   onclick="myFunction()"  >
+                    </button>
+                     <br><br>
+                     <p1>Don't have account?</p1>  
+                     <br><br>   
+                    <button type="button" onclick="document.location='signup.html'"> 
+                        SIGNUP
+                     </button>     
+                </form>     
+            </div>  
+            <script>
+                function  myFunction()
+              { 
+                 var x = document.getElementById("Username");
+                 var y = document.getElementById("Password");
+                 if(x == "pujitha" && y== "pujitha123")
+                 {
+                     alert("success");
+                     
+                 }
+            }
+            </script>  
+
+
+    <body>
+
+</html>

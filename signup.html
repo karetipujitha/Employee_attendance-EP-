@@ -1,0 +1,126 @@
+<html>
+    <style>
+        html{
+            height: 100%;
+        }
+        
+        .login{  
+        width: 370px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 470px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+          
+} 
+#name{
+    height: 30px;
+    width: 300px;
+    padding-left:8px ;
+    border-radius: 3px; 
+    border: none;
+    
+}
+#pass{
+    height: 30px;
+    width: 300px;
+    padding-left:8px ;
+    border-radius: 3px; 
+    border: none;
+    
+}
+#mail{
+    height: 30px;
+    width: 300px;
+    padding-left:8px ;
+    border-radius: 3px; 
+    border: none;
+    
+}
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+} 
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(204, 0, 255);  
+}
+#uname{
+    height: 30px;
+    width: 300px;
+    padding-left:8px ;
+    border-radius: 3px; 
+    border: none;
+    
+}
+span{  
+    color: white;  
+    font-size: 17px;  
+}
+button{
+    color: black;
+    background-color: cyan;
+    
+}
+input[type=submit]
+{
+    
+    background-color: cyan;
+} 
+h1{
+    text-align: center;
+    color: black;
+}
+body{
+    align-content: center;
+    background-color:#6abadeba
+}
+    </style>
+    <body>
+     <title>signup</title>
+        <h1>ADD USER</h1>
+        <div class="login">    
+            <form id="login" method="get" onsubmit="myFunction()" >    
+                <label><b>Full Name  </b></label>    
+                <input type="text" name="name" id="name" placeholder="name" required>    
+                <br><br>
+                 
+                <label><b>Email id</b></label>
+                <br>    
+                <input type="text" name="mail" id="mail" placeholder="Email id" required>    
+                <br><br>    
+                <label><b>Username</b></label>    
+                <br>
+                <input type="text" name="Uname" id="Uname" placeholder="Username" required>    
+                <br><br>
+                
+                   
+                <label><b>Mobile number</b></label>    
+                <input type="text" name="Uname" id="Uname" placeholder="Username" required>    
+                <br><br>
+                <label><b>Password</b></label> 
+                <br>   
+                <input type="Password" name="Pass" id="Pass" placeholder="Password" required >    
+                <br><br>   
+                  
+                 
+                <input type="checkbox" id="check">    
+                <span>Remember me</span>    
+                <br><br> 
+                <button><input type="submit" value="Submit"   onclick=" myFunction()" ></button>
+                <a href="success" class="w3-btn w3-black">submit</a>    
+            </form>     
+        </div>  
+        
+        <script>
+            function myFunction(){
+aler("success");
+            }
+        </script>
+    </body>
+</html>
